@@ -1,0 +1,19 @@
+{
+	"name": "react-component-template-generator",
+	"version": "1.0.0",
+	"description": "Dev tool: scaffold three React component files using a bundled Rust exe",
+	"bin": {
+		"rctg": "./bin/cli.js"
+	},
+	"files": [
+		"bin/",
+		"scripts/",
+		"README.md"
+	],
+	"scripts": {
+		"prepack": "node ./scripts/prepack-fix.js",
+		"postinstall": "node ./scripts/postinstall-fix.js"
+	},
+	"author": "You",
+	"license": "MIT"
+}
