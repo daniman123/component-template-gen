@@ -1,6 +1,6 @@
 {
 	"name": "react-component-template-generator",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Dev tool: scaffold three React component files using a bundled Rust exe",
 	"bin": {
 		"rctg": "./bin/cli.js"
